@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Handle days since launch
-    const launchDate = new Date('2025-04-04'); // Replace with the actual launch date
+    const launchDate = new Date('2025-04-01'); // Replace with the actual launch date
     const today = new Date();
     const daysSinceLaunch = Math.floor((today - launchDate) / (1000 * 60 * 60 * 24));
     document.getElementById('daysSinceLaunch').textContent = daysSinceLaunch;
